@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nav_links",
+  "info": {
+    "singularName": "nav-link",
+    "pluralName": "nav-links",
+    "displayName": "NavLink"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "href": {
+      "type": "string",
+      "regex": "/[a-z-]+"
+    }
+  }
+}

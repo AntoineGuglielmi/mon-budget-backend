@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "costs",
+  "info": {
+    "singularName": "cost",
+    "pluralName": "costs",
+    "displayName": "Cost",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "amount": {
+      "type": "biginteger",
+      "required": true
+    },
+    "budgetId": {
+      "type": "biginteger",
+      "required": true
+    }
+  }
+}
