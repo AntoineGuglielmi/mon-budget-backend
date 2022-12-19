@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = ({ env }) => ({
   connection: {
     client: 'mysql',
@@ -12,5 +10,9 @@ module.exports = ({ env }) => ({
       ssl: false,
     },
     debug: false,
+    options: {
+      charset: 'utf8mb4_swedish_ci',
+      debug: true
+    }
   },
 });
